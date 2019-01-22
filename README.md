@@ -12,7 +12,9 @@ composerの実行自体をIDEやcmd.exeからやってる人には必要ない�
 ## 使い方
 1. この中に最新のcomposerをダウンロード
 2. 各ライブラリのディレクトリの中で `composer install`
-3. IDEに外部ツールとして `winBridge/*.bat` を登録する。  
+3. `winBridge/*.bat` の中の `PHP_BIN` を自分の環境に合わせて書き換える。  
+   基本的には最新のPHPにするのがパフォーマンス面でよい。
+4. IDEに外部ツールとして `winBridge/*.bat` を登録する。  
    composer本体も登録する。
 
 
