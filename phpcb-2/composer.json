@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mayflower/php-codebrowser": "^2.0"
+    }
+}

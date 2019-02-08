@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phploc/phploc": "^4.0",
+        "phpspec/phpspec": "^5.0"
+    }
+}
