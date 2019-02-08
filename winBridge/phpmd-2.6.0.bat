@@ -1,5 +1,9 @@
 @echo off
-set PHP_BIN=C:\xampp-7.2.12-0\php\php.exe
+setlocal
+
+if not defined PHP_BIN (
+  set PHP_BIN=C:\php-7.3.2\php.exe
+)
 
 set BASE_DIR=%~dp0
 set ROOT_DIR=%BASE_DIR%..\phpmd-2.6.0
